@@ -1,4 +1,4 @@
-# Sentiment Analysis of Song Lyrics Across Music Corpora (VADER)
+# Sentiment Analysis of Song Lyrics Across Music Corpora
 
 This repository contains the data, code, and results of a sentiment analysis conducted on lyrics from four music corpora (**The Beatles, CSNY, Grunge, and SNA**). The core goal of this project is to demonstrate lyric sentiment by performing a **quantitative comparative analysis** of the emotional tone across these music corpora. The project utilizes the **VADER (Valence Aware Dictionary and sEntiment Reasoner) [1]** model to derive robust, aggregated sentiment scores.
 
@@ -6,7 +6,7 @@ This repository contains the data, code, and results of a sentiment analysis con
 
 ## VADER Sentiment Analysis
 
-The analysis relies on the VADER (Valence Aware Dictionary and sEntiment Reasoner) model, a powerful tool built on a **lexicon-and-rule-based architecture** highly adapted to analyzing informal and colloquial language.
+The analysis relies on the VADER model, a powerful tool built on a **lexicon-and-rule-based architecture** highly adapted to analyzing informal and colloquial language.
 
 - **Compound Score**: VADER’s primary metric is the normalized, weighted sum of sentiment ratings of the words in the text.  
   - Range: **−1 (extremely negative) to +1 (extremely positive)**  
